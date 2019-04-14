@@ -396,3 +396,23 @@ body{
 .cart_p7,.cart_p8,.cart_p9,.cart_p10,.cart_p11,.cart_p12{
     display: none;
 }
+
+.img_prosmotr{
+    width: 58vw;
+    height: 37vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    left: 21.5vw;
+    top: 6vw;
+    float: left;
+    border: 0.01vw solid #0c1d33;
+    display: none;
+}
+.img_prosmotr_zakr{
+    width: 2vw;
+    height: 2vw;
+    float: right;
+    background: url(img/Xcircle.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
