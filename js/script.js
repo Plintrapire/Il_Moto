@@ -39,15 +39,17 @@ $(document).ready(function(){
 
 	$('.motorollas').mouseover(function(){
 		$(".menu_but2").css("background-color","#1765b0");
-		$(".menu_but_vs").slideDown(1000);
+		$(".menu_but_vs").slideDown(700);
 		$(".menu_but_vs").css("background-color","#1765b0");
+      $(".menu_but2").fadeOut(500);
 
 	});
 	$('.motorollas').mouseleave(function(){
-		$(".menu_but_vs").slideUp(1000);
+		$(".menu_but_vs").slideUp(700);
 		$(".menu_but_vs").css("background-color","rgba(0, 0, 0, 0)");
 		$(".menu_but2").css("background-color","#16365f");
-		$("#menu_cnop").css("background-color","#1765b0");	
+		$("#menu_cnop").css("background-color","#1765b0");
+      $(".menu_but2").fadeIn(500);	
 	});
 
 

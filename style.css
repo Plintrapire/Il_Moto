@@ -46,6 +46,7 @@ body{
     border: 0;
     padding-left: 0.9vw;
     padding-right: 0.9vw;
+    margin-left: 0.9vw;
 }
 .menu_but2{
     height: 3vw;
@@ -59,6 +60,7 @@ body{
     padding-left: 0.9vw;
     padding-right: 0.9vw;
     cursor: pointer;
+    display: block;
 }
 .menu_but2:hover{
     height: 3vw;
@@ -103,6 +105,7 @@ body{
     padding-bottom: 0.2vw;
     width: 7vw;
     cursor: pointer;
+    display: block;
 }
 .menu_vs_but:hover{
     background-color: #16365f;
@@ -129,8 +132,7 @@ body{
     height: auto;
     background-color: #1765b0;
     position: absolute;
-    top: 4.75vw;
-    left: 73.09vw;
+    top: 0.75vw;
     z-index: 2;
     padding-bottom: 0.6vw;
     display: none;
@@ -415,4 +417,82 @@ body{
     background: url(img/Xcircle.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+.map_gde{
+    width: 72vw;
+    height: 28.68vw;
+    float: left;
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
+}
+
+.contacts_glav{
+    padding-bottom: 1.5vw;
+    padding-top: 1.5vw;
+    float: left;
+    margin-left: 6vw;
+}
+
+
+.contact{
+    width: 13vw;
+    height: auto;
+    background-color: #0f3962;
+    border: 0.01vw solid #0c1d33;
+    margin-top: 1.7vw;
+    margin-left: 1.19vw;
+    margin-right: 1.19vw;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+
+.contact_img1{
+    width: 100%;
+    height: 14vw;
+    background: url(img/esrfgwer4regw.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+}
+.contact h3{
+    font-size: 1.6vw;
+    text-align: center;
+    cursor: pointer;
+    z-index: 2;
+}
+.contact p{
+    font-size: 1.1vw;
+    text-align: center;
+    padding-top: -0.5vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 0.7vw;
+    z-index: 2;
+}
+
+.contact_form{
+    width: 24.7vw;
+    height: 27vw;
+    padding-bottom: 1.5vw;
+    padding-top: 1.5vw;
+    float: left;
+    background-color: #efefef;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border: 0.01vw solid #0c1d33;
+    margin-top: 1.5vw;
+    margin-left: -13vw;
+    margin-bottom: 1.5vw;
+}
+.contact_form h3{
+    font-size: 1.6vw;
+    padding-bottom: 1vw;
+}
+
+.motorollas{
+    width: 8vw;
+    height: 3vw;
+    float: left;
 }
