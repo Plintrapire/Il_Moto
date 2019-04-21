@@ -73,7 +73,7 @@ $(document).ready(function(){
 
 	$(".cart_img1").click(function(){
    		$(".img_prosmotr").fadeIn(500);
-   		$( ".img_prosmotr" ).addClass("cart_img1");
+   		$(".img_prosmotr" ).addClass("cart_img1");
    	});
 
    	$(".cart_img2").click(function(){

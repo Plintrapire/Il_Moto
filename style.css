@@ -400,6 +400,7 @@ body{
     float: left;
     border: 0.01vw solid #0c1d33;
     display: none;
+    z-index: 3;
 }
 .img_prosmotr_zakr{
     width: 2vw;
