@@ -19,12 +19,12 @@ body{
     z-index: 2;
 }
 .logo{
-	width: 14.6vw;
+	width: 16.6vw;
 	height: 5.5vw;
 	float: left;
 	margin-top: 0.5vw;
-	margin-left: 1.7vw;
-	background:  url(img/logo.png);
+	margin-left: 3vw;
+	background:  url(img/logo2.png);
     background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
@@ -135,19 +135,18 @@ body{
     background:  url(img/imgforblock1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding-top: 6.5vw;
+    padding-top: 2.5vw;
 }
 
 .block1 h3 {
     font-size: 2.5vw;
     text-align: center;
-    padding-top: 2vw;
 }
 
 .block1 p {
     font-size: 1.7vw;
     text-align: center;
-    padding-top: 2.5vw;
+    padding-top: 1vw;
     padding-left: 5vw;
     padding-right: 5vw;
 }
@@ -454,7 +453,6 @@ body{
 .contact h3{
     font-size: 1.6vw;
     text-align: center;
-    cursor: pointer;
     z-index: 2;
 }
 .contact p{
@@ -491,3 +489,12 @@ body{
     height: 3vw;
     float: left;
 }
+
+
+.sliderrr{
+    margin-top: 6.5vw;
+    float: left;
+
+
+}
+
